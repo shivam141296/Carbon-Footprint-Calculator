@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="chart_type">
+        <item>"Gráfico circular"</item>
+        <item>"Gráfico de barras"</item>
+    </string-array>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green"
+    tools:context="com.example.carbon_footprint_calculation.majorproject_partone.UI.edit_journey_page">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/edit_journey_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/CustomToolbar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <LinearLayout
+            android:id="@+id/main_toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/edit_journey_toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/actionBarText"
+                android:textAllCaps="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/edit_journey_toolbar">
+
+        <TextView
+            android:id="@+id/txt_edit_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginStart="11dp"
+            android:layout_below="@+id/trans_icon"
+            android:layout_toEndOf="@+id/btn_edit_car" />
+
+        <Button
+            android:id="@+id/btn_edit_car"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/ic_edit_black_24dp"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:textStyle="bold"
+            android:layout_below="@+id/trans_icon"
+            android:layout_toEndOf="@+id/txt_edit_date"
+            android:layout_marginTop="2dp" />
+
+        <Button
+            android:id="@+id/btn_edit_route"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/ic_edit_black_24dp"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:textStyle="bold"
+            android:layout_marginEnd="17dp"
+            android:layout_alignBottom="@+id/txt_edit_route"
+            android:layout_alignEnd="@+id/rdgroup_transMode" />
+
+        <TextView
+            android:id="@+id/txt_edit_route"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="113dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/rdgroup_transMode" />
+
+        <Button
+            android:id="@+id/btn_edit_date"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/calendaricon"
+            android:textStyle="bold"
+            android:layout_below="@+id/txt_edit_date"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/txt_edit_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:layout_centerHorizontal="true" />
+
+
+        <RadioGroup
+            android:id="@+id/rdgroup_transMode"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_edit_date"
+            android:layout_marginTop="40dp"
+            android:layout_toStartOf="@+id/txt_edit_date" />
+
+        <ImageView
+            android:id="@+id/trans_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/vehicleicon"
+            android:layout_below="@+id/btn_edit_date"
+            android:layout_marginTop="40dp"
+            android:layout_toEndOf="@+id/btn_edit_car" />
+    </RelativeLayout>
+
+</RelativeLayout>

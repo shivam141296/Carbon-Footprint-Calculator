@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tips">
+        <item>Drive a low carbon vehicle.</item>
+        <item>Carpool or take transit to work, if possible.</item>
+        <item>Turn off your car instead of idling for periods longer than 10 seconds.</item>
+        <item>Schedule regular maintenance checks for your car.</item>
+        <item>When driving, do many short-distance errands at once so your engine stays warm.</item>
+        <item>Purchase vehicle fuel mixed with renewable ethanol.</item>
+        <item>Drive below 90km/hr to maximize fuel efficiency.</item>
+        <item>Try your best to avoid traffic.</item>
+        <item>Get your furnace tuned up annually.</item>
+        <item>Move furniture, rugs and drapes away from air grills and heating vents.</item>
+        <item>Insulate your house.</item>
+        <item>Take shorter showers.</item>
+        <item>On sunny days, open south facing drapes and let the sun in, a natural source of heat.</item>
+        <item>Use microwaves or electric heating elements instead of gas elements when heating food.</item>
+        <item>Hang your laundry to dry instead of using a gas clothes dryer.</item>
+        <item>Install heavy curtains on windows and glass doors to keep in the heat.</item>
+    </string-array>
+</resources>

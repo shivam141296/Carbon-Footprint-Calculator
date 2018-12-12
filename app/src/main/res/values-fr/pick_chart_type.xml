@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="chart_type">
+        <item>"Graphique \"Camembert\""</item>
+        <item>"Graphique à barres"</item>
+    </string-array>
+</resources>

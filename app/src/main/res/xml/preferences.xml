@@ -1,0 +1,27 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <ListPreference
+        android:capitalize="words"
+        android:defaultValue="@string/kg"
+        android:entries="@array/unit_descriptions"
+        android:entryValues="@array/unit_values"
+        android:key="carbon_unit"
+        android:maxLines="2"
+        android:singleLine="true"
+        android:title="@string/setting_unit" />
+
+
+    <Preference
+        android:capitalize="words"
+        android:inputType="textCapWords"
+        android:key="about"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:id = "@+id/about_pref"
+        android:title="@string/about" />
+
+</PreferenceScreen>

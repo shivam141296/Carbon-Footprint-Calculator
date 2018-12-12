@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/listview_vertical_margin"
+    android:paddingBottom="@dimen/listview_vertical_margin"
+    android:paddingLeft="@dimen/listview_horizontal_margin"
+    android:paddingRight="@dimen/listview_horizontal_margin">
+
+    <TextView
+        android:id="@+id/table_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/table_entry1"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/table_route_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/table_entry2"
+        android:layout_alignBaseline="@+id/txt_route_label"
+        android:layout_alignBottom="@+id/txt_route_label"
+        android:layout_toEndOf="@+id/txt_route_label"
+        android:layout_marginLeft="8dp"/>
+
+    <TextView
+        android:id="@+id/table_emission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:text="@string/table_entry5"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="9pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/table_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/table_entry3"
+        android:layout_alignBottom="@+id/carIcon"
+        android:layout_toEndOf="@+id/txt_distance_label"
+        android:layout_marginStart="8dp" />
+
+    <ImageView
+        android:id="@+id/carIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/table_date"
+        app:srcCompat="@mipmap/vehicleicon" />
+
+    <TextView
+        android:id="@+id/txt_route_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/route_label"
+        android:textStyle="bold"
+        android:layout_below="@+id/table_date"
+        android:layout_toEndOf="@+id/carIcon"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/txt_distance_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txt_route_label"
+        android:layout_alignTop="@+id/table_distance"
+        android:layout_marginBottom="8dp"
+        android:text="@string/distance_label"
+        android:textStyle="bold" />
+
+</RelativeLayout>

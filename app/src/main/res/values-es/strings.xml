@@ -1,0 +1,190 @@
+<resources>
+    <string name="app_name">"Co-Calc"</string>
+    <string name="new_journey">"Nuevo viaje"</string>
+    <string name="delete_journey">"Eliminar Viaje"</string>
+    <string name="get_start">"vamos a comenzar"</string>
+    <string name="transportation_menu">"Elegir un coche"</string>
+    <string name="add_new_transportation">"Añadir nuevo transporte"</string>
+    <string name="make">"Marca"</string>
+    <string name="year">"Año"</string>
+    <string name="model">"Modelo"</string>
+    <string name="nickname">"Apodo"</string>
+    <string name="delete">"Borrar"</string>
+    <string name="save">"Guardad"</string>
+    <string name="transportation">"Añadir un nuevo vehículo"</string>
+    <string name="transportation_instruction">"Seleccione la marca, modelo, año y especificaciones de su vehículo."</string>
+    <string name="no_transportation">"Aún no has añadido ningún comentario."</string>
+    <string name="no_route">"Aún no has añadido ningún comentario."</string>
+    <string name="route_menu">"Elige una ruta"</string>
+    <string name="add_new_route">"Añadir nueva ruta"</string>
+    <string name="route">"Agregar una nueva ruta"</string>
+    <string name="route_instruction">"Introduzca la distancia recorrida dentro de una ciudad y en la carretera durante el recorrido. La distancia total se calculará para usted."</string>
+    <string name="save_route_instruction">"Dejando sin marcar no añadirá esta ruta a la lista de rutas. Es posible que desee sólo para salvar los caminos que emplean regularmente."</string>
+    <string name="city">"Ciudad"</string>
+    <string name="total_distance">"La distancia total (km) "</string>
+    <string name="highway">"Autopista"</string>
+    <string name="confirm">"Confirmar"</string>
+    <string name="delete_route">"eliminar ruta"</string>
+    <string name="route_name">"Nombre Ruta"</string>
+    <string name="route_label">"Ruta  "</string>
+    <string name="distance_label">"Distancia total "</string>
+    <string name="total">"Distancia Total"</string>
+    <string name="exit">"salida
+"</string>
+    <string name="name">"Nombre"</string>
+    <string name="main_menu_intro">"Menú principal"</string>
+    <string name="route_nickname">"apodo de ruta"</string>
+    <string name="highway_distance">"distancia de la carretera (km)"</string>
+    <string name="city_distance">"distancia de la ciudad (km)"</string>
+    <string name="emptyNickname">"Por favor, introduzca un apodo para su coche"</string>
+    <string name="emptyRouteName">"Por favor, escriba un nombre para la copia de seguridad..."</string>
+    <string name="emptyCityDistance">"Por favor, introduzca la distancia de la ciudad"</string>
+    <string name="emptyHighwayDistance">"Por favor, introduzca la distancia carretera"</string>
+    <string name="text_spec">"Especificaciones"</string>
+    <string name="emissionTitle">"Viaje"</string>
+    <string name="emissionIntro">"Su emisión para este viaje:"</string>
+    <string name="feedbackLine">"CO2 KG"</string>
+    <string name="ok">"Correcto"</string>
+    <string name="add_route_to_list_of_saved_routes">"Añadir a la lista de ruta de rutas guardadas"</string>
+    <string name="kg_CO2">" Kilogramos de CO2"</string>
+    <string name="tree_day_CO2">" día del árbol de CO2"</string>
+    <string name="table_entry1">"Fecha"</string>
+    <string name="table_entry2">"Ruta"</string>
+    <string name="table_entry3">"Distancia"</string>
+    <string name="table_entry4">"Vehículos"</string>
+    <string name="table_entry5">"Las emisiones de carbono"</string>
+    <string name="switchView">"Cambiar a la tabla"</string>
+    <string name="switchView2">"Cambiar a gráfico"</string>
+    <string name="table_intro">"Lista de viajes"</string>
+    <string name="delete_vehicle">"Eliminar Vehículo"</string>
+    <string name="set_date">"Establecer fecha"</string>
+    <string name="select_date">"Seleccione una fecha para su viaje"</string>
+    <string name="pick_date">"recoger Fecha"</string>
+    <string name="add_a_new_bill">"Añadir un nuevo proyecto de ley"</string>
+    <string name="amount">"El consumo de electricidad en GWh"</string>
+    <string name="number_of_people">"Número de Personas"</string>
+    <string name="pick_a_date">"Elija una fecha"</string>
+    <string name="show_emissions_for">"Mostrar las emisiones para:"</string>
+    <string name="date_range">"\"Última %1$d días"</string>
+    <string name="utility_menu">"facturas de servicios públicos"</string>
+    <string name="no_utility">"Aún no has añadido ningún comentario."</string>
+    <string name="new_utility">"facturas de servicios públicos"</string>
+    <string name="utility_instructions">"Introduzca la cantidad de consumo de gas / electricidad en su factura junto con el número de personas en su hogar. \ Se calcularán nEmissions por persona para usted."</string>
+    <string name="amount_used_in_Kwh">"Cantidad utilizada en KWh"</string>
+    <string name="amount_used_in_gj">"Cantidad utilizada en Gj"</string>
+    <string name="delete_bill">"eliminar Bill"</string>
+    <string name="from">"desde "</string>
+    <string name="to">" A"</string>
+    <string name="selet_to">"Seleccione la fecha de fin"</string>
+    <string name="select_from">"Seleccione una fecha de inicio"</string>
+    <string name="tips">"CONSEJOS"</string>
+    <string name="error">"ERROR DE APAGADO"</string>
+    <string name="edit_journey_intro">"Editar Viaje"</string>
+    <string name="edit_car">"Editar vehículo"</string>
+    <string name="edit_route">"Editar ruta"</string>
+    <string name="edit_date">"escoger otra fecha para el viaje"</string>
+    <string name="edit_route_title">"Editar una ruta existente"</string>
+    <string name="edit_route_in_journey">"Editar ruta en el viaje"</string>
+    <string name="edit_car_in_journey">"Editar coche en el trayecto"</string>
+    <string name="empteyCarData">"Por favor, elegir un coche"</string>
+    <string name="journey_menu_title">"Viajes"</string>
+    <string name="date_placeholder">"xxxx-xxxx"</string>
+    <string name="more_graphs">"gráficos de emisión"</string>
+
+    <string name="toast_error_date">"Fecha selecciones no válidos"</string>
+    <string name="toast_date_missing">"Por favor recoja las fechas de su factura"</string>
+    <string name="edit_utility_title">"Editar una factura existente"</string>
+    <string name="toast_type_missing">"Por favor, seleccione un tipo de billete"</string>
+    <string name="toast_endDate_missing">"Por favor, introduzca factura de fecha de finalización"</string>
+    <string name="toast_startDate_missing">"Por favor, introduzca factura de fecha de inicio"</string>
+    <string name="toast_billAmount_missing">"Por favor, introduzca cantidad de la cuenta"</string>
+    <string name="toast_number_ppl_missing">"Por favor, introduzca el número de personas en su hogar"</string>
+    <string name="toast_car_missing">"Por favor seleccione un auto"</string>
+    <string name="previous_emission_max">"Su emisión máximo anterior era \"</string>
+    <string name="trips_message">"Tienes %1$d trayectos en esta fecha. \"</string>
+    <string name="edit_existing_car">"Editar un vehículo existente"</string>
+    <string name="chart_label">"Emisiones de carbon"</string>
+    <string name="tip_report">"Su emisión para este viaje era "</string>
+    <string name="tip_report_p2">". He aquí un consejo para mantener bajas las emisiones: \"</string>
+    <string name="km">"2.274 km"</string>
+    <string name="kg">"2,7 kg."</string>
+    <string name="city_distance_route_menu">"distancia de la ciudad: \"</string>
+    <string name="highway_distance_route_menu">"distancia de la carretera: \"</string>
+    <string name="total_distance_route_menu">"Distancia total"</string>
+    <string name="kwh">"KWh"</string>
+    <string name="gj">"GJ"</string>
+    <string name="kg_per_person">"kg CO2 por persona"</string>
+    <string name="bill_Amount">"Total de la factura:"</string>
+    <string name="emission_fairShare">"emisiones diarias:"</string>
+    <string name="utility_tip_p1">"Su consumo de servicios públicos por día para este proyecto de ley es \"</string>
+    <string name="tip_kg_per_person">"kg por persona: \"</string>
+    <string name="car_emission">"emisión de coches"</string>
+    <string name="pie_chart_label_on_date">"Todas las emisiones de \"</string>
+
+    <string name="no_journey">"Aún no has añadido ningún comentario."</string>
+    <string name="tab1">"Grafico"</string>
+    <string name="tab2">"Viaje"</string>
+    <string name="tab3">"Utilidad"</string>
+    <string name="tab4">"Ajuste"</string>
+
+    <string name="res_splash_bg"><a href="http://insidejamarifox.com/pull-up-next-to-my-bumper-baby/">fondo de la pantalla</a></string>
+    <string name="res_app_bg"><a href="http://www.lenovomm.com/appdetail/net.libx.test/0">fondo App</a></string>
+    <string name="res_bill_bg"><a href="https://emmacharlottebeauty.wordpress.com/2015/08/04/100-things-that-make-me-happy-part-2/">utilidad Agregar fondo </a></string>
+    <string name="res_route_bg"><a href="http://www.clipartkid.com/cartoojn-pointing-direction-sign-cliparts/">Agregar ruta fondo</a></string>
+    <string name="res_material_icons"><a href="https://material.io/icons">iconos de materiales</a></string>
+    <string name="res_car_icons"><a href="http://www.lanrentuku.com/vector/transport/10kuancheliangtubiao-shiliang.html">coches</a></string>
+    <string name="res_transmode_icon"><a href="https://www.iconfinder.com/icons/339252/human_pedestrian_walk_walking_icon">Transmode icono de paseo</a></string>
+    <string name="res_transmode_train"><a href="http://www.softicons.com/web-icons/awt-travel-blue-icons-by-awt-media/train-icon">icono de tren</a></string>
+    <string name="res_transmode_bus"><a href="http://www.iconarchive.com/show/beautiful-flat-icons-by-elegantthemes/bike-icon.html"> Transmode icono de bus</a></string>
+    <string name="res_tip_btn"><a href="http://findicons.com/icon/184603/arrow_up">Tip botón de flecha</a></string>
+    <string name="res_route_icon"><a href="http://icons.mysitemyway.com/legacy-icon-tags/earth/page/6/">Ruta icon</a></string>
+    <string name="CS_homepage"><a href="https://www.sfu.ca/computing.html">Ciencia computacional SFU</a></string>
+
+
+    <string name="setting">"Ajuste"</string>
+    <string name="pick_icon_title">"Icono"</string>
+    <string name="please_pick_icon">"Por favor recoja un icono para su coche"</string>
+    <string name="label_car_icon">"Icono de coches"</string>
+    <string name="emptyDistance">"Por favor, introduzca al menos una de la distancia"</string>
+    <string name="setting_unit">"Unidad CO2"</string>
+    <string name="lang_english">"Inglés"</string>
+    <string name="about">"Acerca de"</string>
+    <string name="team_name">"Marina de equipo"</string>
+    <string name="year_created">"El nucleo"</string>
+    <string name="developer_label">"Desarrollado por:Daniel"</string>
+    <string name="resource_label">"Recursos utilizados:"</string>
+
+    <string name="restart_app">"Por favor, reinicie la aplicación para ver el cambio"</string>
+    <string name="notification_title_no_journey">"Que ha introducido ninguna viajes para hoy"</string>
+    <string name="notification_title_no_gas_utility">"No ha entrado en una factura de gas natural para el último mes y medio"</string>
+    <string name="notification_title_no_electricity_utility">"No ha entrado en una factura de electricidad durante el último mes y medio"</string>
+    <string name="notification_title_general">"Que ha introducido %1$d viaje (s) de hoy."</string>
+    <string name="notification_no_journey">"¿Le gustaría entrar en un viaje?"</string>
+    <string name="notification_no_utility">"¿Le gustaría entrar en un proyecto de ley?"</string>
+    <string name="notification_general">"Desea introducir más?"</string>
+    <string name="chartType_unselect">"Por favor, seleccione un tipo de gráfico!"</string>
+    <string name="invalidDistance">"Por favor, introduzca una distancia válida"</string>
+    <string name="tree_day">"día (s) del árbol"</string>
+    <string name="tree_day_per_person">"día del árbol por persona"</string>
+    <string name="select_a_chart">"Gráficos disponibles:"</string>
+    <string name="mode">"modo."</string>
+    <string name="route_switch">"Ruta"</string>
+    <string name="other_route">"otro"</string>
+    <string name="groupTransMode">"Grupo de Transmode"</string>
+    <string name="groupRoute">"Grupo por la Ruta"</string>
+    <string name="bus">"Locomoción"</string>
+    <string name="skytrain">"Tren Aereo"</string>
+    <string name="natrualGas">"Gas natural"</string>
+    <string name="electricity">"Electricidad"</string>
+    <string name="car">"Coche"</string>
+    <string name="NaturalGas">"Gas natural"</string>
+    <string name="Electricity">"Electricidad"</string>
+    <string name="chart_label_other">"Otro"</string>
+    <string name="bike">"Ciclismo"</string>
+    <string name="green">"VERDE"</string>
+    <string name="welcome_icon">"welcome_icon"</string>
+    <string name="invalidNumPeople">"Por favor, introduzca un número válido de las personas en su hogar"</string>
+    <string name="invalidBillAmount">"Por favor, introduzca una cantidad de la cuenta válida"</string>
+    <string name="target">objetivo</string>
+    <string name="average">promedio</string>
+</resources>

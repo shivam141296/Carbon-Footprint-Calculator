@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_add_route_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/route"
+
+    tools:context="com.example.carbon_footprint_calculation.majorproject_partone.UI.add_route_page">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/add_route_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/CustomToolbar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <LinearLayout
+            android:id="@+id/main_toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/add_route_toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/actionBarText"
+                android:textAllCaps="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/add_route_toolbar">
+        <EditText
+            android:id="@+id/edit_routeNickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txt_routeNickname"
+            android:ems="10"
+            android:hint="@string/route_nickname"
+            android:inputType="text" />
+        <TextView
+            android:id="@+id/txt_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edit_highway"
+            android:layout_marginTop="19dp"
+            android:text="@string/total_distance"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txt_highway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edit_city"
+            android:text="@string/highway"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/edit_highway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txt_highway"
+            android:ems="10"
+            android:hint="@string/highway_distance"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/txt_totalDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txt_distance"
+            android:text="@string/total" />
+
+        <TextView
+            android:id="@+id/txt_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edit_routeNickname"
+            android:text="@string/city"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="@string/route_instruction" />
+
+        <TextView
+            android:id="@+id/txt_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/edit_highway"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/checkbox_saveRoute"
+            android:layout_marginTop="30dp"
+            android:text="@string/save_route_instruction" />
+
+        <TextView
+            android:id="@+id/txt_routeNickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/route_name"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:layout_marginTop="17dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/edit_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txt_city"
+            android:ems="10"
+            android:hint="@string/city_distance"
+            android:inputType="numberDecimal" />
+
+
+
+
+        <CheckBox
+            android:id="@+id/checkbox_saveRoute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txt_totalDistance"
+            android:layout_marginTop="16dp"
+            android:text="@string/add_route_to_list_of_saved_routes" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

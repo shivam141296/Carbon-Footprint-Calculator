@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green"
+    tools:context="com.example.carbon_footprint_calculation.majorproject_partone.UI.about_page">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/about_page_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/about_page_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="613dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/about_page_toolbar">
+
+                <TextView
+                    android:id="@+id/link_tip_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/res_tip_btn"
+                    android:layout_below="@+id/link_route_icon"
+                    android:layout_alignStart="@+id/link_route_icon"
+                    android:layout_marginTop="17dp" />
+
+                <TextView
+                    android:id="@+id/link_transmode_bus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/link_transmode_train"
+                    android:layout_below="@+id/link_transmode_train"
+                    android:layout_marginTop="17dp"
+                    android:layout_weight="1"
+                    android:text="@string/res_transmode_bus" />
+
+                <TextView
+                    android:id="@+id/link_transmode_train"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/link_transmode_icon"
+                    android:layout_below="@+id/link_transmode_icon"
+                    android:layout_marginTop="13dp"
+                    android:text="@string/res_transmode_train" />
+
+                <TextView
+                    android:id="@+id/txt_developers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/txt_developer_label"
+                    android:layout_below="@+id/txt_developer_label"
+                    android:text="@string/developers" />
+
+                <TextView
+                    android:id="@+id/link_splash_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/txt_resource_label"
+                    android:layout_below="@+id/txt_resource_label"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/res_splash_bg" />
+
+                <TextView
+                    android:id="@+id/link_car_icons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/link_material_icons"
+                    android:layout_below="@+id/link_material_icons"
+                    android:layout_marginTop="14dp"
+                    android:text="@string/res_car_icons" />
+
+                <TextView
+                    android:id="@+id/link_app_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/link_splash_bg"
+                    android:layout_below="@+id/link_splash_bg"
+                    android:layout_marginTop="14dp"
+                    android:text="@string/res_app_bg" />
+
+                <TextView
+                    android:id="@+id/link_route_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/link_utility_bg"
+                    android:layout_below="@+id/link_utility_bg"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/res_route_bg" />
+
+                <TextView
+                    android:id="@+id/txt_teamname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/about_page_toolbar"
+                    android:layout_marginStart="31dp"
+                    android:layout_marginTop="20dp"
+                    android:text="TEAM SOLO"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    tools:ignore="NotSibling" />
+
+                <TextView
+                    android:id="@+id/link_utility_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/link_app_bg"
+                    android:layout_below="@+id/link_app_bg"
+                    android:layout_marginTop="14dp"
+                    android:text="@string/res_bill_bg" />
+
+                <TextView
+                    android:id="@+id/txt_CShomepage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/txt_year_created"
+                    android:layout_below="@+id/txt_year_created"
+                    android:layout_marginTop="14dp"
+                    android:text="@string/CS_homepage" />
+
+                <TextView
+                    android:id="@+id/txt_developer_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/txt_CShomepage"
+                    android:layout_below="@+id/txt_CShomepage"
+                    android:layout_marginTop="17dp"
+                    android:text="@string/developer_label"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_year_created"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/txt_teamname"
+                    android:layout_below="@+id/txt_teamname"
+                    android:text="@string/year_created" />
+
+                <TextView
+                    android:id="@+id/txt_resource_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/txt_developers"
+                    android:layout_below="@+id/txt_developers"
+                    android:layout_marginTop="25dp"
+                    android:text="@string/resource_label"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/link_material_icons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/link_route_bg"
+                    android:layout_below="@+id/link_route_bg"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/res_material_icons" />
+
+                <TextView
+                    android:id="@+id/link_transmode_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/link_car_icons"
+                    android:layout_below="@+id/link_car_icons"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/res_transmode_icon" />
+
+                <TextView
+                    android:id="@+id/link_route_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/res_route_icon"
+                    android:layout_below="@+id/link_transmode_bus"
+                    android:layout_alignStart="@+id/link_transmode_bus"
+                    android:layout_marginTop="14dp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

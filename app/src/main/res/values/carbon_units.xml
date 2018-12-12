@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--do not translate-->
+    <string-array name="unit_values">units
+        <item>Kg</item>
+        <item>Tree day</item>
+    </string-array>
+    <!--do translate-->
+    <string-array name="unit_descriptions">units
+        <item>Kg</item>
+        <item>Tree day (number of days a tree needs to counteract the amount of CO2)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string-array name="tips">
+        <item>"Conducir un vehículo de bajo carbono."</item>
+        <item>"Compartir el viaje o tomar el transporte al trabajo, si es posible."</item>
+        <item>"Apague el coche en lugar de ralentí durante períodos de más de 10 segundos."</item>
+        <item>"Programar las revisiones de mantenimiento regulares para su coche."</item>
+        <item>"Al conducir, hacer muchas diligencias de corta distancia a la vez para que su motor se mantiene caliente."</item>
+        <item>"combustible compra del vehículo mezclado con etanol renovable."</item>
+        <item>"Conducir por debajo de 90 km / h para maximizar la eficiencia del combustible."</item>
+        <item>"Haga su mejor esfuerzo para evitar el tráfico."</item>
+        <item>"Obtener su horno puesto a punto por año."</item>
+        <item>"Mover muebles, alfombras y cortinas lejos de rejillas de ventilación y salidas de aire caliente."</item>
+        <item>"El aislamiento de su casa."</item>
+        <item>"Tomar duchas más cortas."</item>
+        <item>"En los días soleados, orientación sur abierta cortinas y dejar que el sol, una fuente natural de calor."</item>
+        <item>"Utilice microondas o elementos de calefacción eléctrica en lugar de los elementos de gas cuando se calienta la comida."</item>
+        <item>"Colgar su ropa a secar en lugar de utilizar un secador de ropa a gas."</item>
+        <item>"Instalar pesadas cortinas en las ventanas y puertas de vidrio para mantener el calor."</item>
+    </string-array>
+</resources>

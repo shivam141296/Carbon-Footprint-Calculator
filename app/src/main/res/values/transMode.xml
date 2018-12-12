@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="transMode">
+        <item>Car</item>
+        <item>Walk/Bike</item>
+        <item>Bus</item>
+        <item>Skytrain</item>
+    </string-array>
+
+</resources>

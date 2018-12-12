@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/black"
+    app:bbn_badgeColor="#FFFDE7"
+    app:bbn_rippleColor="#33ffffff"
+    app:bbn_itemColorActive="#FFFFFF">
+    <item
+        android:id="@+id/tab_graph"
+        android:color="@color/colorPrimary"
+        android:icon="@drawable/ic_tab_graph"
+        android:title="@string/tab1" />
+    <item
+        android:id="@+id/tab_journey"
+        android:color="@color/colorPrimary"
+        android:icon="@drawable/ic_tab_journey"
+        android:title="@string/tab2" />
+    <item
+        android:id="@+id/tab_utility"
+        android:color="@color/colorPrimary"
+        android:icon="@drawable/ic_tab_utility"
+        android:title="@string/tab3" />
+
+</menu>

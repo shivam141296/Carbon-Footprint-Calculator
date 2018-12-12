@@ -1,0 +1,12 @@
+<resources>
+    <!--do not translate-->
+    <string-array name="unit_values">units
+        <item>"Kg"</item>
+        <item>"Tree day"</item>
+    </string-array>
+    <!--do translate-->
+    <string-array name="unit_descriptions">units
+        <item>"2,7 kg."</item>
+        <item>"día del árbol (número de días que un árbol necesita para contrarrestar la cantidad de CO2)"</item>
+    </string-array>
+</resources>

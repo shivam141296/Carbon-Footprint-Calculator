@@ -1,0 +1,11 @@
+<resources>
+
+
+    <string-array name="transMode">
+        <item>"Coche"</item>
+        <item>"Caminar / Bicicleta"</item>
+        <item>"Locomoción"</item>
+        <item>"Tren Aereo"</item>
+    </string-array>
+
+</resources>

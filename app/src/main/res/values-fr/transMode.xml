@@ -1,0 +1,12 @@
+<resources>
+
+
+    <string-array name="transMode">
+        <item>"Voiture"</item>
+        <item>"Marche / Vélo"</item>
+        <item>"bus"</item>
+        <item>"Train aérien
+"</item>
+    </string-array>
+
+</resources>

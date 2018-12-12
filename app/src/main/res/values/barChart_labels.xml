@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barChart_labels">
+        <item>Car</item>
+        <item>Bus</item>
+        <item>Sky Train</item>
+        <item>Natural Gas</item>
+        <item>Electricity</item>
+    </string-array>
+</resources>

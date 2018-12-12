@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="res_splash_bg"><a href="http://insidejamarifox.com/pull-up-next-to-my-bumper-baby/">Splash screen background</a></string>
+    <string name="res_app_bg"><a href="http://www.lenovomm.com/appdetail/net.libx.test/0">App background</a></string>
+    <string name="res_bill_bg"><a href="https://emmacharlottebeauty.wordpress.com/2015/08/04/100-things-that-make-me-happy-part-2/">Add utility background</a></string>
+    <string name="res_route_bg"><a href="http://www.clipartkid.com/cartoojn-pointing-direction-sign-cliparts/">Add route background</a></string>
+    <string name="res_material_icons"><a href="https://material.io/icons">Material icons</a></string>
+    <string name="res_car_icons"><a href="http://www.lanrentuku.com/vector/transport/10kuancheliangtubiao-shiliang.html">Car icons</a></string>
+    <string name="res_transmode_icon"><a href="https://www.iconfinder.com/icons/339252/human_pedestrian_walk_walking_icon">TransMode walk icon</a></string>
+    <string name="res_transmode_train"><a href="http://www.softicons.com/web-icons/awt-travel-blue-icons-by-awt-media/train-icon">TransMode train icon</a></string>
+    <string name="res_transmode_bus"><a href="http://www.iconarchive.com/show/beautiful-flat-icons-by-elegantthemes/bike-icon.html">TransMode bus icon</a></string>
+    <string name="res_tip_btn"><a href="http://findicons.com/icon/184603/arrow_up">Tip arrow button</a></string>
+    <string name="res_route_icon"><a href="http://icons.mysitemyway.com/legacy-icon-tags/earth/page/6/">Route icon</a></string>
+    <string name="CS_homepage">JIIT Information Technology</string>
+</resources>

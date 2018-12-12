@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.carbon_footprint_calculation.majorproject_partone">
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+
+        android:theme="@style/AppTheme">
+        <activity android:name=".UI.welcome_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UI.base_activity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".UI.add_vehicle_page" />
+        <activity android:name=".UI.add_route_page" />
+        <activity
+            android:name=".UI.add_utility_page"
+            android:parentActivityName=".UI.base_activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UI.base_activity"/>
+        </activity>
+        <activity android:name=".UI.vehicle_menu" />
+        <activity android:name=".UI.route_menu" />
+        <activity android:name=".UI.more_graphs" />
+        <activity android:name=".UI.edit_journey_page" />
+        <activity android:name=".UI.setting_page" />
+        <activity android:name=".UI.about_page"/>
+        /activity>
+
+
+
+        <receiver android:name=".UI.notification_receiver" />
+    </application>
+
+</manifest>

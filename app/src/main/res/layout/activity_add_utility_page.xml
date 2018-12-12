@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/house"
+    tools:context="com.example.carbon_footprint_calculation.majorproject_partone.UI.add_utility_page">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/add_utility_toolbar"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <TextView
+            android:id="@+id/txt_billDateTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btn_billDateTo"
+            android:layout_alignBottom="@+id/btn_billDateTo"
+            android:layout_alignParentEnd="true"
+            android:text="@string/date_placeholder" />
+
+        <RadioGroup
+            android:id="@+id/radio_billType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="19dp"
+            android:layout_below="@+id/txt_utilityInstruction"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/btn_billDateTo"
+            android:layout_width="70dp"
+            android:layout_height="42dp"
+            android:text="@string/to"
+            android:layout_marginEnd="13dp"
+            android:layout_alignTop="@+id/btn_billDateFrom"
+            android:layout_toStartOf="@+id/txt_billDateTo" />
+
+        <Button
+            android:id="@+id/btn_billDateFrom"
+            android:layout_width="70dp"
+            android:layout_height="42dp"
+            android:text="@string/from"
+            android:layout_marginTop="19dp"
+            android:layout_below="@+id/radio_billType"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/edit_utilityPeople"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_utilityPeople"
+            android:layout_alignStart="@+id/txt_utilityPeople"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/txt_billDateFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_placeholder"
+            android:layout_marginStart="12dp"
+            android:layout_alignBaseline="@+id/btn_billDateTo"
+            android:layout_alignBottom="@+id/btn_billDateTo"
+            android:layout_toEndOf="@+id/btn_billDateFrom" />
+
+        <TextView
+            android:id="@+id/txt_utilityPeople"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number_of_people"
+            android:layout_below="@+id/edit_utilityAmount"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="31dp" />
+
+        <TextView
+            android:id="@+id/txt_utilityInstruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/utility_instructions"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="25dp" />
+
+        <EditText
+            android:id="@+id/edit_utilityAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:layout_below="@+id/txt_utilityAmount"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/txt_utilityAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amount_used_in_Kwh"
+            android:layout_marginTop="35dp"
+            android:layout_below="@+id/btn_billDateFrom"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/add_utility_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/CustomToolbar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <LinearLayout
+            android:id="@+id/main_toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/add_utility_toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/actionBarText"
+                android:textAllCaps="true"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+</RelativeLayout>

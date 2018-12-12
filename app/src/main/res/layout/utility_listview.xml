@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/listview_vertical_margin"
+    android:paddingBottom="@dimen/listview_vertical_margin"
+    android:paddingLeft="@dimen/listview_horizontal_margin"
+    android:paddingRight="@dimen/listview_horizontal_margin">
+
+    <TextView
+        android:id="@+id/utilityType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/utilityIcon"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/txt_bill_amount_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/utilityType"
+        android:layout_alignStart="@+id/utilityType"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/bill_Amount"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/billAmount"
+        android:textColor="@android:color/black"
+        android:layout_toEndOf="@+id/txt_bill_amount_label"
+        android:layout_alignBottom="@+id/txt_bill_amount_label" />
+
+
+    <TextView
+        android:id="@+id/txt_utility_usage_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txt_bill_amount_label"
+        android:layout_below="@+id/txt_bill_amount_label"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/emission_fairShare"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dailyEmission"
+        android:textColor="@android:color/black"
+        android:layout_toEndOf="@+id/txt_utility_usage_label"
+        android:layout_alignBottom="@+id/txt_utility_usage_label" />
+
+
+    <TextView
+        android:id="@+id/txt_billDateFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/txt_utility_usage_label"
+        android:layout_alignStart="@+id/txt_utility_usage_label" />
+
+    <TextView
+        android:id="@+id/txt_billDateEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/txt_utility_usage_label"
+        android:layout_toEndOf="@+id/txt_billDateFrom"
+        android:layout_marginLeft="5dp"/>
+
+    <ImageView
+        android:id="@+id/utilityIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dailyEmission"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@mipmap/utilityicon" />
+
+
+
+</RelativeLayout>

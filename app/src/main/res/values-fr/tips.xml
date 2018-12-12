@@ -1,0 +1,20 @@
+<resources>
+    <string-array name="tips">
+        <item>"Conduire un véhicule bas de carbone."</item>
+        <item>"Covoiturage ou en transport au travail, si possible."</item>
+        <item>"Éteignez votre voiture au lieu de la marche au ralenti pendant des périodes de plus de 10 secondes."</item>
+        <item>"Calendrier de vérification d'entretien régulier pour votre voiture."</item>
+        <item>"Lorsque vous conduisez, faire beaucoup de courses de courte distance à la fois si votre moteur reste chaud."</item>
+        <item>"carburant du véhicule d'achat mélangé avec de l'éthanol renouvelable."</item>
+        <item>"Conduire en dessous de 90 km / h pour optimiser le rendement énergétique."</item>
+        <item>"Faites de votre mieux pour éviter le trafic."</item>
+        <item>"Obtenez votre four accordé annuellement."</item>
+        <item>"meubles, tapis et déplacer les rideaux loin des grilles d'aération et bouches de chauffage."</item>
+        <item>"Isolez votre maison."</item>
+        <item>"Prendre des douches plus courtes."</item>
+        <item>"Les jours de soleil, ouvert sud rideaux et laisser entrer le soleil, une source naturelle de chaleur."</item>
+        <item>"Utilisation des micro-ondes ou des éléments de chauffage électrique au lieu des éléments de gaz lorsque le chauffage des aliments."</item>
+        <item>"Accrochez votre linge à sécher au lieu d'utiliser un sèche-linge à gaz."</item>
+        <item>"Installez des rideaux lourds sur les fenêtres et les portes en verre pour conserver la chaleur."</item>
+    </string-array>
+</resources>
