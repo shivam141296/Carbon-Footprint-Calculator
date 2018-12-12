@@ -3,7 +3,8 @@
 An Android app that tracks user's daily CO2 emissions(transportations and utility bills). Users can see their daily, monthly or yearly emissions from the main page.
 
 ## Introduction
-![Uploading welcome screen.png…]()
+![welcome screen](https://user-images.githubusercontent.com/26284921/49875917-367c0d00-fe48-11e8-8fe3-bf085786e2bf.png)
+
 
 The app features a refreshed and user friendly UI with an original logo.
 
