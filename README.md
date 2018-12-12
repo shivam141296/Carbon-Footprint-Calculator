@@ -3,7 +3,7 @@
 An Android app that tracks user's daily CO2 emissions(transportations and utility bills). Users can see their daily, monthly or yearly emissions from the main page.
 
 ## Introduction
-![welcome screen](Carbon-Footprint-Calculator/docs/welcome screen.png)
+![Uploading welcome screen.png…]()
 
 The app features a refreshed and user friendly UI with an original logo.
 
