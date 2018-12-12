@@ -1,4 +1,4 @@
-# Project Carbon Tracker(GO GREEN) CMPT276@SFU
+# Carbon Footprint Calculator
 
 An Android app that tracks user's daily CO2 emissions(transportations and utility bills). Users can see their daily, monthly or yearly emissions from the main page.
 
@@ -46,19 +46,13 @@ From home page, user can open a graph page to see more specific graphs. It shows
 Two emission units are available. The app supports multiple languages: English, French and Spanish(machine translated).
 
 #### Developers
-![devs](/docs/10.PNG)
 
-Zhixuan(Otto) Hu
+Shivam Kapoor
 
-XiaoLu(Levana) He
+Shriya Juneja
 
-Alison Wong
+Pulkit Jain
 
-Ming-Nu Lee
-
-This project was collaborately developed on Gitlab.
-
-https://csil-git1.cs.surrey.sfu.ca/276-17-1-Navy/carbon-tracker
 
 ## Usage
  (At the moment) open with Android Studio
